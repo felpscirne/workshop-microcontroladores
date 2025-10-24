@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "author": "Felipe Cirne",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 10.2, "left": 297, "attrs": {} },
+    { "type": "wokwi-servo", "id": "servo1", "top": -165.2, "left": 134.4, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": 142.7, "left": -19.4, "attrs": {} }
+  ],
+  "connections": [
+    [ "pot1:GND", "uno:GND.2", "black", [ "h345.6", "v0", "h111.3" ] ],
+    [ "pot1:VCC", "uno:5V", "red", [ "v0" ] ],
+    [ "pot1:SIG", "uno:A0", "green", [ "v57.6", "h485.4" ] ],
+    [ "servo1:GND", "uno:GND.1", "black", [ "h0" ] ],
+    [ "servo1:PWM", "uno:9", "green", [ "h0" ] ],
+    [ "servo1:V+", "uno:5V", "green", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}
