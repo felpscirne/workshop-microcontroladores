@@ -73,3 +73,26 @@ Para executar estes projetos em sua máquina, você precisará de:
 
 * **Erro:** `Error: File not found: .pio/build/uno/firmware.hex` (ou `.bin` no ESP32)
     * **Solução:** Você não compilou (build) o projeto antes de iniciar o simulador. Siga o **Passo 5** ("Compile") das instruções de execução.
+
+
+## Links Úteis e Próximos Passos
+
+Aqui estão os links para todas as ferramentas e documentações que usamos (e recomendamos) durante o workshop.
+
+### Ferramentas
+
+* **[Arduino IDE](https://www.arduino.cc/en/software)**: A IDE oficial e o ponto de partida clássico para a programação Arduino. Mencionamos ela como a alternativa principal ao PlatformIO.
+* **[Wokwi](https://wokwi.com/)**: O simulador online que usamos. Ótimo para testar ideias rapidamente sem precisar de hardware.
+* **[VS Code](https://code.visualstudio.com/)**: O nosso editor de código.
+* **[PlatformIO](https://platformio.org/)**: A ferramenta de desenvolvimento profissional para embarcados, usada como extensão no VS Code.
+
+### Documentação e Ecossistemas
+
+* **[Referência da Linguagem Arduino](https://www.arduino.cc/reference/pt/)**: A "Bíblia" para todas as funções padrão do Arduino (como `digitalWrite`, `analogRead`, `map`, etc.).
+* **[Documentação Oficial do ESP32 (Espressif)](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/)**: A documentação oficial do fabricante do chip. É densa, mas é a fonte primária de informação.
+* **[Random Nerd Tutorials (RNT)](https://randomnerdtutorials.com/)**: **(Altamente Recomendado)** O melhor site para tutoriais práticos com ESP32, ESP8266 e Arduino. A maioria das suas dúvidas futuras provavelmente já foi respondida lá.
+
+### Bibliotecas
+
+* **[Documentação da `ESP32Servo`](https://madhephaestus.github.io/ESP32Servo/)**: Documentação da biblioteca de Servo que usamos na Prática 2, otimizada para o ESP32.
+* **[Referência da `HTTPClient` (ESP32)](https://randomnerdtutorials.com/esp32-http-get-post-arduino/)**: Um excelente tutorial do RNT que explica em detalhes como usar `HTTPClient` para GET e POST.
